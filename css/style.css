@@ -1,6 +1,6 @@
 #logo,
 #modal-title {
-    font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* body {
@@ -9,38 +9,43 @@
 } */
 
 .navbar {
-    border-bottom: #0275d8 3px solid;
-    opacity: 0.8;
+  border-bottom: #0275d8 3px solid;
+  opacity: 0.8;
 }
 
 .navbar-text {
-    color: #fff;
+  color: #fff;
 }
 
 #home-section {
-    background: url("../img/my_header_smol.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+  background: url("../img/my_header_smol.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+
+@media (min-width: 1400px) {
+  #home-section {
     background-position: center -300px;
-    min-height: 700px;
+  }
 }
 
 #home-section .dark-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 700px;
-    background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 700px;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 #home-section .home-inner {
-    padding-top: 150px;
+  padding-top: 150px;
 }
 
 .social {
-    border-radius: 50%;
-    width: 100%;
-    height: 100%;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
 }
