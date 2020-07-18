@@ -1,331 +1,425 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>I am Arka Seth. Welcome to my website.</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/style.css" />
-  <title>I am Arka Seth. Welcome to my website.</title>
-</head>
-
-<body data-spy="scroll" data-target="#main-nav" id="home">
-  <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="main-nav">
-    <div class="container">
-      <a href="index.html" class="navbar-brand" id="logo">Arka Seth.</a>
-      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div id="navbarCollapse" class="collapse navbar-collapse">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a href="#home-section" class="nav-link">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="#about-me" class="nav-link">About Me</a>
-          </li>
-          <!-- <li class="nav-item">
+  <body data-spy="scroll" data-target="#main-nav" id="home">
+    <!-- NAVBAR -->
+    <nav
+      class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top"
+      id="main-nav"
+    >
+      <div class="container">
+        <a href="index.html" class="navbar-brand" id="logo">Arka Seth.</a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#home-section" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about-me" class="nav-link">About Me</a>
+            </li>
+            <!-- <li class="nav-item">
                         <a href="#projects" class="nav-link">Projects</a>
                     </li> -->
-          <li class="nav-item">
-            <a href="#behind-the-lens" class="nav-link">Behind the Lens</a>
+            <li class="nav-item">
+              <a href="#behind-the-lens" class="nav-link">Behind the Lens</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact-me" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HEADER AND HOME -->
+    <header id="home-section">
+      <div class="dark-overlay">
+        <div class="home-inner container">
+          <div class="row">
+            <div class="col text-center align-self-center navbar-text pt-5">
+              <h1 class="display-4">
+                Hey There!
+              </h1>
+              <p class="lead">Welcome to my website! Scroll down for more.</p>
+              <a href="#about-me" class="btn btn-outline-primary">About Me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="about-me">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 py-5 text-center">
+            <h1 class="display-4">
+              My Name Is Arka.
+            </h1>
+            <hr class="w-25 bg-primary" />
+            <p class="lead">
+              I am a sophomore at National Institute of Technology Durgapur. I
+              am a student of Computer Science and Engineering. I have a keen
+              interest in Machine Learning and Web Development. In my free time,
+              I watch football, rugby and Formula 1, listen to music, play the
+              guitar and ukelele, practice photography or watch TV. You can view
+              my résumé by clicking on the button below.
+            </p>
+            <a
+              href="https://drive.google.com/file/d/1W4GVBdOQ_bHRgGIXDWNFWL02P0j4miFR/view?usp=sharing"
+              target="_blank"
+              class="btn btn-primary"
+              >Click Here</a
+            >
+          </div>
+          <div class="col-md-6 py-5">
+            <img
+              src="img/arka.jpg"
+              alt=""
+              class="mx-auto d-none d-md-block img-fluid rounded-circle"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="bg-primary w-25" />
+
+    <!-- MOTIVATE ME -->
+    <section id="motivate">
+      <div class="dark-overlay">
+        <div class="row">
+          <div class="col">
+            <div class="container p-5 text-center">
+              <blockquote class="blockquote">
+                <p>
+                  "The <strong>difference</strong> between who you are and who
+                  you want to be is <strong>what you do</strong>."
+                </p>
+                <footer class="blockquote-footer">Bill Phillips</footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="bg-primary w-25" />
+
+    <!-- Behind the Lens -->
+    <section id="behind-the-lens">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 m-auto py-5 text-center">
+            <h1 class="display-4">
+              Behind the Lens
+            </h1>
+            <hr class="w-25 bg-primary" />
+            <p>
+              As I have mentioned before, photography is something I am very
+              passionate about. Even though I use my mobile phone (currently an
+              OnePlus 6) to take photographs, I try to do the best I can. All
+              photos shown below are unedited.
+            </p>
+            <div class="carousel slide mb-5" data-ride="carousel" id="slider">
+              <ol class="carousel-indicators">
+                <li class="active" data-target="#slider" data-slide-to="0"></li>
+                <li data-target="#slider" data-slide-to="1"></li>
+                <li data-target="#slider" data-slide-to="2"></li>
+                <li data-target="#slider" data-slide-to="3"></li>
+                <li data-target="#slider" data-slide-to="4"></li>
+                <li data-target="#slider" data-slide-to="5"></li>
+                <li data-target="#slider" data-slide-to="6"></li>
+                <li data-target="#slider" data-slide-to="7"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    class="d-block img-fluid"
+                    src="img/victoria_lit.jpg"
+                    alt="First Slide"
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h3>Victoria Memorial</h3>
+                    <p>
+                      Situated in Kolkata, this is a classic example of British
+                      architecture. Built upon the banks of the Hooghly river,
+                      it was dedicated to Queen Victoria, the then Empress of
+                      India.
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block img-fluid"
+                    src="img/brihadeesvara.jpg"
+                    alt="Second Slide"
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h3>Brihadisvara Temple</h3>
+                    <p>
+                      Also known as Peruvudaiyār Kōvil, this is a temple
+                      dedicated to Lord Shiva in Thanjavur. This was one of the
+                      tallest structures in the world at the time of its
+                      construction.
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block img-fluid"
+                    src="img/kanchenjunga.jpg"
+                    alt="Third Slide"
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h3>Kanchenjunga</h3>
+                    <p>
+                      Translated from Tibetan as "The five treasures of the high
+                      snow", this is the third highest mountain in the world.
+                      The picture was clicked in Darjeeling.
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block img-fluid"
+                    src="img/3_days_quizinc.jpg"
+                    alt="Fourth Slide"
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h3>3 Days To Go</h3>
+                    <p>
+                      I came up with this idea for a teaser for the Quizzitch
+                      Cup 2020, organised by QuizInc. This was accomplished with
+                      the help of my friends and my trusty OnePlus 6, featuring
+                      the Open Camera app.
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block img-fluid"
+                    src="img/Dhanushkodi_anchor.jpg"
+                    alt="Fifth Slide"
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h3>Dhanushkodi</h3>
+                    <p>
+                      This is an old town on the tip of Pamban island. It was
+                      abandoned after the 1964 Rameswaram cyclone which detroyed
+                      the town.
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block img-fluid"
+                    src="img/Dhanushkodi_beach.jpg"
+                    alt="Sixth Slide"
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h3>Dhanushkodi</h3>
+                    <p>
+                      Another click from the same place. It shares the only land
+                      border between India and Sri Lanka, which is one of the
+                      smallest in the world at 45 metres in length.
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block img-fluid"
+                    src="img/ee_lab.jpg"
+                    alt="Seventh Slide"
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h3>Incandescent lamp</h3>
+                    <p>
+                      Science is so beautiful.
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block img-fluid"
+                    src="img/hall11.jpg"
+                    alt="Eighth Slide"
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h3>Hall 11, NIT Durgapur</h3>
+                    <p>
+                      The place where we spent the first 7 months of our
+                      undergrad lives and made so many memories until the
+                      COVID-19 pandemic happened and the world went into
+                      lockdown.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- CONTROLS -->
+              <a href="#slider" class="carousel-control-prev" data-slide="prev"
+                ><span class="carousel-control-prev-icon"></span
+              ></a>
+              <a href="#slider" class="carousel-control-next" data-slide="next"
+                ><span class="carousel-control-next-icon"></span
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="bg-primary w-25" />
+
+    <!-- CONTACT -->
+    <section id="contact-me">
+      <div class="col text-center py-5">
+        <h1 class="display-4">
+          Contact Me
+        </h1>
+        <hr id="contact-hr" class="bg-primary" />
+      </div>
+      <div class="container text-center">
+        <ul class="list-inline mb-5">
+          <li class="list-inline-item">
+            <a
+              href="mailto:arkaseth@gmail.com"
+              class="d-inline-block social mr-3 bg-primary text-white p-3"
+              ><i class="fa fa-envelope"></i
+            ></a>
           </li>
-          <li class="nav-item">
-            <a href="#contact-me" class="nav-link">Contact</a>
+          <li class="list-inline-item">
+            <a
+              href="https://github.com/arkaseth"
+              class="d-inline-block social mr-3 bg-primary text-white p-3"
+              ><i class="fa fa-github"></i
+            ></a>
+          </li>
+          <li class="list-inline-item">
+            <a
+              href="https://www.linkedin.com/in/arkaseth/"
+              class="d-inline-block social mr-3 bg-primary text-white p-3"
+              ><i class="fa fa-linkedin"></i
+            ></a>
+          </li>
+          <li class="list-inline-item">
+            <a
+              href="https://stackoverflow.com/users/11651719/arka-seth"
+              class="d-inline-block social mr-3 bg-primary text-white p-3"
+              ><i class="fa fa-stack-overflow"></i
+            ></a>
+          </li>
+          <li class="list-inline-item">
+            <a
+              href="https://www.facebook.com/ArkaSeth5/"
+              class="d-inline-block social mr-3 bg-primary text-white p-3"
+              ><i class="fa fa-facebook"></i
+            ></a>
           </li>
         </ul>
       </div>
-    </div>
-  </nav>
+    </section>
 
-  <!-- HEADER AND HOME -->
-  <header id="home-section">
-    <div class="dark-overlay">
-      <div class="home-inner container">
+    <!-- FOOTER -->
+    <footer id="main-footer" class="bg-dark">
+      <div class="container">
         <div class="row">
-          <div class="col text-center align-self-center navbar-text pt-5">
-            <h1 class="display-4">
-              Hey There!
-            </h1>
-            <p class="lead">Welcome to my website! Scroll down for more.</p>
-            <a href="#about-me" class="btn btn-outline-primary">About Me</a>
+          <div class="col text-center text-white py-4">
+            <h3>Arka Seth</h3>
+            <p>Copyright &copy; <span id="year"></span></p>
+            <img
+              src="https://forthebadge.com/images/badges/built-with-love.svg"
+              alt=""
+            />
           </div>
         </div>
       </div>
-    </div>
-  </header>
+    </footer>
 
-  <section id="about-me">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 py-5 text-center">
-          <h1 class="display-4">
-            My Name Is Arka.
-          </h1>
-          <hr class="w-25 bg-primary" />
-          <p class="lead">
-            I am a sophomore at National Institute of Technology Durgapur. I
-            am a student of Computer Science and Engineering. I have a keen
-            interest in Machine Learning and Web Development. In my free time,
-            I watch football, rugby and Formula 1, listen to music, play the
-            guitar and ukelele, practice photography or watch TV. You can view my résumé by
-            clicking on the button below.
-          </p>
-          <a href="https://drive.google.com/file/d/1W4GVBdOQ_bHRgGIXDWNFWL02P0j4miFR/view?usp=sharing" target="_blank"
-            class="btn btn-primary">Click Here</a>
-        </div>
-        <div class="col-md-6 py-5">
-          <img src="img/arka.jpg" alt="" class="mx-auto d-block img-fluid rounded-circle" />
-        </div>
-      </div>
-    </div>
-  </section>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      // Get current year for copyright
+      $("#year").text(new Date().getFullYear());
 
-  <hr class="bg-primary w-25" />
+      // Init scrollspy
+      $("body").scrollspy({
+        target: "#main-nav",
+      });
 
-  <!-- MOTIVATE ME -->
-  <section id="motivate">
-    <div class="dark-overlay">
-      <div class="row">
-        <div class="col">
-          <div class="container p-5 text-center">
-            <blockquote class="blockquote">
-              <p>
-                "The <strong>difference</strong> between who you are and who
-                you want to be is <strong>what you do</strong>."
-              </p>
-              <footer class="blockquote-footer">Bill Phillips</footer>
-            </blockquote>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+      // Add smooth scrolling
+      $("#main-nav a").on("click", function (e) {
+        // Check for hash value
+        if (this.hash !== "") {
+          // Prevent default
+          e.preventDefault();
 
-  <hr class="bg-primary w-25" />
+          // Store hash
+          const hash = this.hash;
 
-  <!-- Behind the Lens -->
-  <section id="behind-the-lens">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-8 m-auto py-5 text-center">
-          <h1 class="display-4">
-            Behind the Lens
-          </h1>
-          <hr class="w-25 bg-primary" />
-          <p>As I have mentioned before, photography is something I am very passionate about. Even though I use my
-            mobile
-            phone (currently an OnePlus 6) to take photographs, I try to do the best I can. All photos shown below are
-            unedited.</p>
-          <div class="carousel slide mb-5" data-ride="carousel" id="slider">
-            <ol class="carousel-indicators">
-              <li class="active" data-target="#slider" data-slide-to="0"></li>
-              <li data-target="#slider" data-slide-to="1"></li>
-              <li data-target="#slider" data-slide-to="2"></li>
-              <li data-target="#slider" data-slide-to="3"></li>
-              <li data-target="#slider" data-slide-to="4"></li>
-              <li data-target="#slider" data-slide-to="5"></li>
-              <li data-target="#slider" data-slide-to="6"></li>
-              <li data-target="#slider" data-slide-to="7"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block img-fluid" src="img/victoria_lit.jpg" alt="First Slide" />
-                <div class="carousel-caption d-none d-md-block">
-                  <h3>Victoria Memorial</h3>
-                  <p>
-                    Situated in Kolkata, this is a classic example of British architecture. Built upon the banks of the
-                    Hooghly river, it was dedicated to Queen Victoria, the then Empress of India.
-                  </p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img class="d-block img-fluid" src="img/brihadeesvara.jpg" alt="Second Slide" />
-                <div class="carousel-caption d-none d-md-block">
-                  <h3>Brihadisvara Temple</h3>
-                  <p>
-                    Also known as Peruvudaiyār Kōvil, this is a temple dedicated to Lord Shiva in Thanjavur. This was
-                    one
-                    of the tallest structures in the world at the time of its construction.
-                  </p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img class="d-block img-fluid" src="img/kanchenjunga.jpg" alt="Third Slide" />
-                <div class="carousel-caption d-none d-md-block">
-                  <h3>Kanchenjunga</h3>
-                  <p>
-                    Translated from Tibetan as "The five treasures of the high snow", this is the third highest mountain
-                    in the world. The picture was clicked in Darjeeling.
-                  </p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img class="d-block img-fluid" src="img/3_days_quizinc.jpg" alt="Fourth Slide" />
-                <div class="carousel-caption d-none d-md-block">
-                  <h3>3 Days To Go</h3>
-                  <p>
-                    I came up with this idea for a teaser for the Quizzitch Cup 2020, organised by QuizInc. This was
-                    accomplished with the help of my friends and my trusty OnePlus 6, featuring the Open Camera app.
-                  </p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img class="d-block img-fluid" src="img/Dhanushkodi_anchor.jpg" alt="Fifth Slide" />
-                <div class="carousel-caption d-none d-md-block">
-                  <h3>Dhanushkodi</h3>
-                  <p>
-                    This is an old town on the tip of Pamban island. It was abandoned after the 1964 Rameswaram cyclone
-                    which detroyed the town.
-                  </p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img class="d-block img-fluid" src="img/Dhanushkodi_beach.jpg" alt="Sixth Slide" />
-                <div class="carousel-caption d-none d-md-block">
-                  <h3>Dhanushkodi</h3>
-                  <p>
-                    Another click from the same place. It shares the only land border between India and Sri Lanka, which
-                    is one of the smallest in the world at 45 metres in length.
-                  </p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img class="d-block img-fluid" src="img/ee_lab.jpg" alt="Seventh Slide" />
-                <div class="carousel-caption d-none d-md-block">
-                  <h3>Incandescent lamp</h3>
-                  <p>
-                    Science is so beautiful.
-                  </p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img class="d-block img-fluid" src="img/hall11.jpg" alt="Eighth Slide" />
-                <div class="carousel-caption d-none d-md-block">
-                  <h3>Hall 11, NIT Durgapur</h3>
-                  <p>
-                    The place where we spent the first 7 months of our undergrad lives and made so many memories until
-                    the
-                    COVID-19 pandemic happened and the world went into lockdown.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!-- CONTROLS -->
-            <a href="#slider" class="carousel-control-prev" data-slide="prev"><span
-                class="carousel-control-prev-icon"></span></a>
-            <a href="#slider" class="carousel-control-next" data-slide="next"><span
-                class="carousel-control-next-icon"></span></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+          // Animate smooth scroll
+          $("html,body").animate(
+            {
+              scrollTop: $(hash).offset().top,
+            },
+            900,
+            function () {
+              // Add hash to url after scroll
+              window.location.hash = hash;
+            }
+          );
+        }
+      });
 
-  <hr class="bg-primary w-25" />
-
-
-  <!-- CONTACT -->
-  <section id="contact-me">
-    <div class="col text-center py-5">
-      <h1 class="display-4">
-        Contact Me
-      </h1>
-      <hr id="contact-hr" class="bg-primary" />
-    </div>
-    <div class="container text-center">
-      <ul class="list-inline mb-5">
-        <li class="list-inline-item">
-          <a href="mailto:arkaseth@gmail.com" class="d-inline-block social mr-3 bg-primary text-white p-3"><i
-              class="fa fa-envelope"></i></a>
-        </li>
-        <li class="list-inline-item">
-          <a href="https://github.com/arkaseth" class="d-inline-block social mr-3 bg-primary text-white p-3"><i
-              class="fa fa-github"></i></a>
-        </li>
-        <li class="list-inline-item">
-          <a href="https://www.linkedin.com/in/arkaseth/"
-            class="d-inline-block social mr-3 bg-primary text-white p-3"><i class="fa fa-linkedin"></i></a>
-        </li>
-        <li class="list-inline-item">
-          <a href="https://stackoverflow.com/users/11651719/arka-seth"
-            class="d-inline-block social mr-3 bg-primary text-white p-3"><i class="fa fa-stack-overflow"></i></a>
-        </li>
-        <li class="list-inline-item">
-          <a href="https://www.facebook.com/ArkaSeth5/" class="d-inline-block social mr-3 bg-primary text-white p-3"><i
-              class="fa fa-facebook"></i></a>
-        </li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-  <footer id="main-footer" class="bg-dark">
-    <div class="container">
-      <div class="row">
-        <div class="col text-center text-white py-4">
-          <h3>Arka Seth</h3>
-          <p>Copyright &copy; <span id="year"></span></p>
-          <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="" />
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
-    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-  </script>
-  <script>
-    // Get current year for copyright
-    $("#year").text(new Date().getFullYear());
-
-    // Init scrollspy
-    $("body").scrollspy({
-      target: "#main-nav",
-    });
-
-    // Add smooth scrolling
-    $("#main-nav a").on("click", function (e) {
-      // Check for hash value
-      if (this.hash !== "") {
-        // Prevent default
-        e.preventDefault();
-
-        // Store hash
-        const hash = this.hash;
-
-        // Animate smooth scroll
-        $("html,body").animate({
-            scrollTop: $(hash).offset().top,
-          },
-          900,
-          function () {
-            // Add hash to url after scroll
-            window.location.hash = hash;
-          }
-        );
-      }
-    });
-
-    // Carousel
-    $(".carousel").carousel({
-      interval: 3000,
-      keyboard: true,
-      pause: "hover",
-      wrap: true,
-    });
-  </script>
-</body>
-
+      // Carousel
+      $(".carousel").carousel({
+        interval: 3000,
+        keyboard: true,
+        pause: "hover",
+        wrap: true,
+      });
+    </script>
+  </body>
 </html>
