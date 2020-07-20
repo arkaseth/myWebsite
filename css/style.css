@@ -23,6 +23,10 @@
   height: 100%;
 }
 
+.w-17 {
+  width: 17%;
+}
+
 #main-footer {
   border-top: #0275d8 3px solid;
   opacity: 0.8;
